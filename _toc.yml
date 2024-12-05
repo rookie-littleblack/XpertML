@@ -7,5 +7,5 @@ chapters:
 - file: markdown
 - file: notebooks
 - file: markdown-notebooks
-- sections:
-    - file: ml1
+  sections:
+    - file: notes/ml1
