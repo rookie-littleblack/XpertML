@@ -47,7 +47,7 @@ exclude_patterns: [
 
 latex:
   latex_documents:
-    targetname: book.tex
+    targetname: XpertML.tex
   latex_engine: xelatex
   latex_elements:
     papersize: a4paper
@@ -55,9 +55,20 @@ latex:
     preamble: |
       \usepackage[UTF8]{ctex}
       \usepackage{xeCJK}
-      \setCJKmainfont{Noto Sans CJK SC}
-      \setCJKsansfont{Noto Sans CJK SC}
+      \setCJKmainfont[BoldFont={Noto Sans CJK SC Bold}]{Noto Sans CJK SC}
+      \setCJKsansfont[BoldFont={Noto Sans CJK SC Bold}]{Noto Sans CJK SC}
       \setCJKmonofont{Noto Sans Mono CJK SC}
       \setmainfont{DejaVu Serif}
       \setsansfont{DejaVu Sans}
       \setmonofont{DejaVu Sans Mono}
+    babel: ''  # 禁用 babel
+    polyglossia: ''  # 禁用 polyglossia
+    fontpkg: ''  # 禁用默认字体包
+    fncychap: ''  # 禁用花哨的章节标题
+    maketitle: ''  # 使用自定义标题页
+    inputenc: ''  # 禁用 inputenc
+    cmappkg: ''  # 禁用 cmap
+    fontenc: ''  # 禁用 fontenc
+    utf8extra: ''  # 禁用 utf8extra
+    textcomp: ''  # 禁用 textcomp
+    geometry: \usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=3cm,right=3cm]{geometry}
