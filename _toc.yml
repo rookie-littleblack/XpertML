@@ -5,5 +5,9 @@ root: intro
 chapters:
 - file: notes/ch01_base
   sections:
-    - file: notes/ch01_base/ch01_se01_test1
-    - file: notes/ch01_base/ch01_se01_test2
+    - file: notes/ch01_base/ch01_se01
+    - file: notes/ch01_base/ch01_se02
+- file: notes/ch02_classic_ml_alg
+  sections:
+    - file: notes/ch02_classic_ml_alg/ch02_se01
+    - file: notes/ch02_classic_ml_alg/ch02_se02

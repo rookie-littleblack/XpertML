@@ -2,13 +2,13 @@
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="./" >
+<html lang="en" data-content_root="../../" >
 
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>XpertML，你的机器/深度学习手册 &#8212; XpertML</title>
+    <title>机器学习基础 &#8212; XpertML</title>
   
   
   
@@ -27,43 +27,44 @@
   </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+  <link href="../../_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
 
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
-    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
   
   <!-- So that users can add custom icons -->
-  <script src="_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <script src="../../_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
 
-    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="_static/doctools.js?v=9a2dae69"></script>
-    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="_static/copybutton.js?v=f281be69"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="第一章 基础理论" href="notes/ch01_base.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'notes/ch01_base/ch01_se02';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="第二章 经典机器学习算法" href="../ch02_classic_ml_alg.html" />
+    <link rel="prev" title="数学基础" href="ch01_se01.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -85,7 +86,7 @@
   <dialog id="pst-search-dialog">
     
 <form class="bd-search d-flex align-items-center"
-      action="search.html"
+      action="../../search.html"
       method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search"
@@ -115,8 +116,6 @@
       
       
       
-        
-      
       <dialog id="pst-primary-sidebar-modal"></dialog>
       <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
@@ -136,7 +135,7 @@
     
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="../../intro.html">
   
   
   
@@ -147,8 +146,8 @@
       
     
     
-    <img src="_static/avatar.png" class="logo__image only-light" alt="XpertML - Home"/>
-    <img src="_static/avatar.png" class="logo__image only-dark pst-js-only" alt="XpertML - Home"/>
+    <img src="../../_static/avatar.png" class="logo__image only-light" alt="XpertML - Home"/>
+    <img src="../../_static/avatar.png" class="logo__image only-dark pst-js-only" alt="XpertML - Home"/>
   
   
 </a></div>
@@ -163,21 +162,21 @@
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../intro.html">
                     XpertML，你的机器/深度学习手册
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="notes/ch01_base.html">第一章 基础理论</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="notes/ch01_base/ch01_se01.html">数学基础</a></li>
-<li class="toctree-l2"><a class="reference internal" href="notes/ch01_base/ch01_se02.html">机器学习基础</a></li>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../ch01_base.html">第一章 基础理论</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ch01_se01.html">数学基础</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">机器学习基础</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="notes/ch02_classic_ml_alg.html">第二章 经典机器学习算法</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="notes/ch02_classic_ml_alg/ch02_se01.html">监督学习</a></li>
-<li class="toctree-l2"><a class="reference internal" href="notes/ch02_classic_ml_alg/ch02_se02.html">集成学习</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../ch02_classic_ml_alg.html">第二章 经典机器学习算法</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ch02_classic_ml_alg/ch02_se01.html">监督学习</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ch02_classic_ml_alg/ch02_se02.html">集成学习</a></li>
 </ul>
 </details></li>
 </ul>
@@ -251,7 +250,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fnotes/ch01_base/ch01_se02.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -281,7 +280,7 @@
       
       
       
-      <li><a href="_sources/intro.md" target="_blank"
+      <li><a href="../../_sources/notes/ch01_base/ch01_se02.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -355,7 +354,7 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>XpertML，你的机器/深度学习手册</h1>
+    <h1>机器学习基础</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -369,25 +368,8 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="xpertml">
-<h1>XpertML，你的机器/深度学习手册<a class="headerlink" href="#xpertml" title="Link to this heading">#</a></h1>
-<p>这是你的机器/深度学习手册，在这里你可以学习到机器/深度学习的基础理论、算法原理、代码实现、应用案例等。</p>
-<p>这本手册是由<a class="reference external" href="https://github.com/rookie-littleblack">&#64;rookielittleblack</a>编写，并使用<a class="reference external" href="https://jupyterbook.org/">JupyterBook</a>生成。</p>
-<p>本手册的内容结构如下：</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="notes/ch01_base.html">第一章 基础理论</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="notes/ch01_base/ch01_se01.html">数学基础</a></li>
-<li class="toctree-l2"><a class="reference internal" href="notes/ch01_base/ch01_se02.html">机器学习基础</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="notes/ch02_classic_ml_alg.html">第二章 经典机器学习算法</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="notes/ch02_classic_ml_alg/ch02_se01.html">监督学习</a></li>
-<li class="toctree-l2"><a class="reference internal" href="notes/ch02_classic_ml_alg/ch02_se02.html">集成学习</a></li>
-</ul>
-</li>
-</ul>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>机器学习基础<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
 </section>
 
     <script type="text/x-thebe-config">
@@ -403,7 +385,7 @@
         },
         kernelOptions: {
             name: "python3",
-            path: "./."
+            path: "./notes/ch01_base"
         },
         predefinedOutput: true
     }
@@ -420,12 +402,21 @@
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="ch01_se01.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">数学基础</p>
+      </div>
+    </a>
     <a class="right-next"
-       href="notes/ch01_base.html"
+       href="../ch02_classic_ml_alg.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">第一章 基础理论</p>
+        <p class="prev-next-title">第二章 经典机器学习算法</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -479,8 +470,8 @@ By rookielittleblack
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
-<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+  <script defer src="../../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="../../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
 
   <footer class="bd-footer">
   </footer>
