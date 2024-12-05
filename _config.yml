@@ -41,6 +41,19 @@ html:
 
 # 排除这些文件，使它们不会产生警告
 exclude_patterns: [
-  "README.md",
+  "README.md",  # 排除 README.md 文件
   "examples/*"  # 排除 examples 目录下的所有文件
 ]
+
+latex:
+  latex_documents:
+    targetname: book.tex
+  latex_engine: xelatex
+  latex_elements:
+    papersize: a4paper
+    pointsize: 10pt
+    preamble: |
+      \usepackage[UTF8]{ctex}
+      \setmainfont{DejaVu Serif}
+      \setsansfont{DejaVu Sans}
+      \setmonofont{DejaVu Sans Mono}
