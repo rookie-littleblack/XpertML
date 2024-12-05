@@ -54,6 +54,10 @@ latex:
     pointsize: 10pt
     preamble: |
       \usepackage[UTF8]{ctex}
+      \usepackage{xeCJK}
+      \setCJKmainfont{Noto Sans CJK SC}
+      \setCJKsansfont{Noto Sans CJK SC}
+      \setCJKmonofont{Noto Sans Mono CJK SC}
       \setmainfont{DejaVu Serif}
       \setsansfont{DejaVu Sans}
       \setmonofont{DejaVu Sans Mono}
