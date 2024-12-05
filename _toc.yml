@@ -3,10 +3,6 @@
 format: jb-book
 root: intro
 chapters:
-- file: markdown
-- file: notebooks
-- file: references
-- file: markdown-notebooks
 - file: notes/ch01_base
   sections:
     - file: notes/ch01_base/ch01_se01_test1

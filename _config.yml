@@ -38,3 +38,9 @@ html:
         el.href = el.href + '?v=' + Date.now();
       });
     </script>
+
+# 排除这些文件，使它们不会产生警告
+exclude_patterns: [
+  "README.md",
+  "examples/*"  # 排除 examples 目录下的所有文件
+]
