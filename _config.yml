@@ -30,8 +30,11 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  extra_files: ['robots.txt', '.nojekyll']
   extra_navbar: |
-    <div>Last updated: <span id="last-updated"></span></div>
     <script>
-      document.getElementById('last-updated').textContent = new Date().toISOString();
+      // 添加随机参数到资源URL
+      document.querySelectorAll('link[rel="stylesheet"], script[src]').forEach(el => {
+        el.href = el.href + '?v=' + Date.now();
+      });
     </script>
